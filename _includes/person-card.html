@@ -1,0 +1,26 @@
+{% assign person = include.person %}
+{% assign person_image = person.image | default: '/assets/img/people/placeholder.svg' %}
+<article class="card person-card">
+  <img class="person-image" src="{{ person_image | relative_url }}" alt="Portrait for {{ person.name }}">
+  <div>
+    <h3>{{ person.name }}</h3>
+    <p class="metadata">
+      {% if person.title %}{{ person.title }}{% elsif person.role %}{{ person.role }}{% endif %}
+      {% if person.program %}<br>{{ person.program }}{% endif %}
+      {% if person.year %}, class of {{ person.year }}{% endif %}
+      {% if person.years %}<br>{{ person.years }}{% endif %}
+      {% if person.affiliation %}<br>{{ person.affiliation }}{% endif %}
+      {% if person.current %}<br>{{ person.current }}{% endif %}
+    </p>
+    {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
+    {% if person.interests %}
+      <p class="tag-list" aria-label="Research interests">
+        {% for interest in person.interests %}<span>{{ interest }}</span>{% endfor %}
+      </p>
+    {% endif %}
+    <p class="links">
+      {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
+      {% if person.website %}<a href="{{ person.website }}">Website</a>{% endif %}
+    </p>
+  </div>
+</article>

@@ -1,0 +1,27 @@
+{% assign event = include.event %}
+<article class="card event-card" id="{{ event.slug }}">
+  <p class="eyebrow">{{ event.type }}{% if event.date %} · {{ event.date | date: "%B %-d, %Y" }}{% endif %}</p>
+  <h3>{{ event.title }}</h3>
+  <dl class="event-details">
+    {% if event.date %}
+      <dt>Date</dt>
+      <dd><time datetime="{{ event.date }}">{{ event.date | date: "%A, %B %-d, %Y" }}</time></dd>
+    {% endif %}
+    {% if event.cadence %}<dt>Cadence</dt><dd>{{ event.cadence }}</dd>{% endif %}
+    {% if event.day %}<dt>Day</dt><dd>{{ event.day }}</dd>{% endif %}
+    {% if event.time %}<dt>Time</dt><dd>{{ event.time }}</dd>{% endif %}
+    {% if event.location %}<dt>Location</dt><dd>{{ event.location }}</dd>{% endif %}
+    {% if event.speaker %}<dt>Speaker</dt><dd>{{ event.speaker }}</dd>{% endif %}
+    {% if event.host %}<dt>Host</dt><dd>{{ event.host }}</dd>{% endif %}
+    {% if event.organizer %}<dt>Organizer</dt><dd>{{ event.organizer }}</dd>{% endif %}
+    {% if event.audience %}<dt>Audience</dt><dd>{{ event.audience }}</dd>{% endif %}
+  </dl>
+  {% if event.summary %}<p>{{ event.summary }}</p>{% endif %}
+  {% if event.description %}<p>{{ event.description }}</p>{% endif %}
+  {% if event.related_project %}<p class="metadata"><strong>Related project:</strong> {{ event.related_project }}</p>{% endif %}
+  {% if event.links.size > 0 %}
+    <p class="links">
+      {% for link in event.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+    </p>
+  {% endif %}
+</article>

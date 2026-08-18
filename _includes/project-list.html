@@ -1,0 +1,5 @@
+<div class="card-grid project-grid">
+  {% for project in include.projects %}
+    {% include project-card.html project=project %}
+  {% endfor %}
+</div>

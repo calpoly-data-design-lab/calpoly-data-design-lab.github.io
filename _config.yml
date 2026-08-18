@@ -1,0 +1,22 @@
+title: Cal Poly Data Design Lab
+description: >-
+  Homepage for the Cal Poly San Luis Obispo Data Design Lab.
+url: ""
+baseurl: ""
+lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+collections:
+  pages:
+    output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+plugins: []

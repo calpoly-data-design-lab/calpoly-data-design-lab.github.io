@@ -1,0 +1,21 @@
+{% assign project = include.project %}
+<article class="card project-card" id="{{ project.slug }}">
+  <header>
+    <p class="eyebrow">{{ project.status }} · {{ project.years }}</p>
+    <h3>{{ project.title }}</h3>
+  </header>
+  <p>{{ project.summary }}</p>
+  {% if project.people %}
+    <p class="metadata"><strong>People:</strong> {{ project.people | join: ', ' }}</p>
+  {% endif %}
+  {% if project.areas %}
+    <p class="tag-list" aria-label="Research areas">
+      {% for area in project.areas %}<span>{{ area }}</span>{% endfor %}
+    </p>
+  {% endif %}
+  {% if project.links.size > 0 %}
+    <p class="links">
+      {% for link in project.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+    </p>
+  {% endif %}
+</article>

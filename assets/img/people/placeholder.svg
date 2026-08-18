@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Person placeholder</title>
+  <desc id="desc">A larger abstract head-and-shoulders portrait placeholder for lab members without a photo.</desc>
+  <rect width="320" height="320" rx="28" fill="#e7efe8"/>
+  <circle cx="160" cy="102" r="76" fill="#154734" opacity="0.9"/>
+  <path d="M18 320c7-48 24-85 52-111 25-23 55-35 90-35s65 12 90 35c28 26 45 63 52 111H18Z" fill="#154734" opacity="0.9"/>
+</svg>

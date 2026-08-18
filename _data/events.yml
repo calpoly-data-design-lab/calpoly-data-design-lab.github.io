@@ -1,0 +1,48 @@
+# Event content management
+#
+# recurring: events that happen on a repeating schedule, such as weekly reading groups.
+# upcoming: dated events shown on the calendar and upcoming events list.
+# past: optional archive of completed events.
+
+recurring:
+  - title: Fall 2026 Reading Group
+    slug: data-design-reading-group
+    type: Reading group
+    cadence: Weekly
+    day: TBD
+    time: TBD
+    location: 14-238B
+    organizer: Cal Poly Data Design Lab
+    audience: Open to students, faculty, and collaborators
+    description: >-
+      A weekly discussion of papers, tools, and works-in-progress in human-centered
+      data science, data visualization, and human-computer interaction.
+    links:
+      - label: Suggest a reading or topic
+        url: mailto:awrigh20@calpoly.edu
+
+upcoming:
+  - title: "Invited Speaker: Dr. Placeholder"
+    slug: invited-speaker-placeholder-work
+    type: Invited speaker
+    date: "2026-10-02"
+    time: 3:10–4:30 PM
+    location: TBD, Cal Poly San Luis Obispo
+    speaker: Dr. Guest Researcher, Example University
+    host: Dr. Example Faculty
+    summary: >-
+      A colloquium on designing better placeholders
+    links:
+      - label: RSVP
+        url: "#"
+
+
+past:
+
+  - title: "Fall 2026 Kickoff Meeting"
+    slug: fall-2026-kickoff
+    type: Kickoff
+    date: "2026-08-19"
+    time: 3:10–4:30 PM
+    summary: >-
+      Initial Meeting setting up the semester for the lab

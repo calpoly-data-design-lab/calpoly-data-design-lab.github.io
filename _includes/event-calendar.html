@@ -1,0 +1,19 @@
+{% assign events = include.events | sort: "date" %}
+{% assign event_limit = include.limit | default: events.size %}
+<div class="event-calendar" aria-label="Upcoming events calendar">
+  {% for event in events limit: event_limit %}
+    <article class="calendar-row">
+      <time class="calendar-date" datetime="{{ event.date }}">
+        <span class="calendar-month">{{ event.date | date: "%b" }}</span>
+        <span class="calendar-day">{{ event.date | date: "%d" }}</span>
+        <span class="calendar-year">{{ event.date | date: "%Y" }}</span>
+      </time>
+      <div class="calendar-event">
+        <p class="eyebrow">{{ event.type }} · {{ event.time }}</p>
+        <h3><a href="#{{ event.slug }}">{{ event.title }}</a></h3>
+        <p>{{ event.location }}</p>
+        {% if event.speaker %}<p class="metadata">{{ event.speaker }}</p>{% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>
