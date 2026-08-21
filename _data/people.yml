@@ -22,9 +22,6 @@ students:
     email: tbohley@calpoly.edu
     website: https://www.linkedin.com/in/tobin-bohley
     image: /assets/img/people/tobin.jpg
-    interests:
-      - Interactive visualization
-      - Visualization systems
     bio: >-
       Cal Poly computer science student exploring my interests: data science, systems software, network programming and more. Focused on the fundamentals.
 
@@ -34,10 +31,6 @@ students:
     year: 2027
     email: kly27@calpoly.edu
     website: https://khoa-l.github.io/
-    interests:
-      - Human-Computer Interaction
-      - Explainable AI (XAI)
-      - Fairness, Accountability, Transparency, and Ethics (FATE)
 
 alumni:
   - name: Sam Gar Fox Kaplan
@@ -46,6 +39,3 @@ alumni:
     year: 2026
     email: sf.kaplan@gmail.com
     website: https://www.linkedin.com/in/sam-f-kaplan/
-    interests:
-      - Human-Centered AI
-      - Bioinformatics

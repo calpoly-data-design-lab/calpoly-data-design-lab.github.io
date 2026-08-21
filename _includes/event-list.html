@@ -1,6 +1,0 @@
-{% assign events = include.events | sort: "date" %}
-<div class="card-grid event-grid">
-  {% for event in events %}
-    {% include event-card.html event=event %}
-  {% endfor %}
-</div>

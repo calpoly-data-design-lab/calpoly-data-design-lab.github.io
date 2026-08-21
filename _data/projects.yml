@@ -1,7 +1,7 @@
 ongoing:
   - title: Multimodal Visualization Authoring
     slug: sketch-2-vis
-    status: Ongoing (Funded)
+    status: Ongoing
     years: 2026–present
     people:
       - Sadie Fisher
@@ -9,24 +9,28 @@ ongoing:
       - Dr. Ayaan Kazerouni
     summary: >-
       Exploring How Students Design Visualizations with Integrated Sketching, Natural Language, and Code Editing
-    areas:
-      - Data Visualization
-      - Human-Centered AI
-      - Computing Education
+
 
 
   - title: Interactive Synthetic Data Tool for Empirical Exploration Evaluation
     slug: dim-reduction-study-tool
-    status: Ongoing (Independent)
+    status: Ongoing
     years: 2026–present
     people:
       - Khoa Ly
       - Dr. Austin P. Wright
     summary: >-
       Developing a tool to study how well dimensionality reduction techniques enable effective truth tracking data exploration
-    areas:
-      - Data Visualization
-      - Human-Computer Interaction
+
+  - title: Interactive Visualization of Bayes Networks
+    slug: bayes-vis
+    status: Ongoing
+    years: 2026–present
+    people:
+      - Tobin Bohley
+      - Dr. Austin P. Wright
+    summary: >-
+      Developing an interactive visualization tool for Probabilistic Graphical Models as an interface towards general purpose probabilistic programing in a visual mode. Ongoing work includes both tool design and development as well as empirical studies to understand the strengths and weaknesses of visual as opposed to code based workflows.
 
 past:
   - title: Cognitive Effects of AI Authorship labels on Interpretive Domains
@@ -38,6 +42,3 @@ past:
       - Dr. Austin P. Wright
     summary: >-
       An empirical study of how perceptions of AI attribution to analysis affects how people respond to analysis in open interpretive domain of art criticism.
-    areas:
-      - Human-Computer Interaction
-      - Human-Centered AI

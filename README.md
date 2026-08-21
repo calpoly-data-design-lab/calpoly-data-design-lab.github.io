@@ -8,8 +8,7 @@ A GitHub Pages/Jekyll static website template for the Cal Poly Data Design Lab a
 - `_data/navigation.yml` — top navigation links.
 - `_data/people.yml` — affiliated faculty, students, and alumni.
 - `_data/projects.yml` — ongoing and past research projects.
-- `_data/events.yml` — recurring reading groups, upcoming events, colloquia, invited speakers, and past event archives.
-- `index.md`, `people.md`, `projects.md`, `events.md`, `about.md`, `join.md` — editable page copy.
+- `index.md`, `people.md`, `projects.md`, `about.md`, `join.md` — editable page copy, including the regular lab meeting details on the homepage.
 
 ## Add images
 
@@ -27,4 +26,4 @@ Then open `http://127.0.0.1:4000`.
 
 ## Styling
 
-The base stylesheet at `assets/css/tufte.css` is vendored from the official Tufte CSS project at https://github.com/edwardtufte/tufte-css. Lab-specific layout, cards, colors, and responsive additions live in `assets/css/site.css`.
+The site stylesheet is consolidated in `assets/css/style.css`. It keeps a Tufte CSS-inspired academic layout and typography, but uses system font stacks instead of missing vendored webfont files.

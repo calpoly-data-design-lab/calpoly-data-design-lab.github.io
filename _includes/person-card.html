@@ -13,11 +13,6 @@
       {% if person.current %}<br>{{ person.current }}{% endif %}
     </p>
     {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
-    {% if person.interests %}
-      <p class="tag-list" aria-label="Research interests">
-        {% for interest in person.interests %}<span>{{ interest }}</span>{% endfor %}
-      </p>
-    {% endif %}
     <p class="links">
       {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
       {% if person.website %}<a href="{{ person.website }}">Website</a>{% endif %}

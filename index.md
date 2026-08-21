@@ -28,12 +28,13 @@ description: Homepage for the Cal Poly Data Design Lab.
 
 
 <section>
-  <h2>Upcoming events</h2>
-  <p>Join us for reading groups, colloquia, invited speakers, and other lab events.</p>
-  {% include event-calendar.html events=site.data.events.upcoming limit=1 %}
-  <p class="button-row">
-    <a class="button secondary" href="{{ '/events/' | relative_url }}">View all events</a>
-  </p>
+  <h2>Regular lab meetings</h2>
+  <article class="card meeting-card">
+    <p class="eyebrow">Weekly meeting</p>
+    <h3>Tuesdays, 3–4 PM</h3>
+    <p>Join the Cal Poly Data Design Lab for regular project updates, research discussion, and informal collaboration.</p>
+    <p class="metadata"><strong>Location:</strong> Building 14, Room 222</p>
+  </article>
 </section>
 
 <section>

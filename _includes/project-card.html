@@ -8,11 +8,6 @@
   {% if project.people %}
     <p class="metadata"><strong>People:</strong> {{ project.people | join: ', ' }}</p>
   {% endif %}
-  {% if project.areas %}
-    <p class="tag-list" aria-label="Research areas">
-      {% for area in project.areas %}<span>{{ area }}</span>{% endfor %}
-    </p>
-  {% endif %}
   {% if project.links.size > 0 %}
     <p class="links">
       {% for link in project.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
