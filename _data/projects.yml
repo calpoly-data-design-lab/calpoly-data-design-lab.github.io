@@ -12,7 +12,7 @@ ongoing:
 
 
 
-  - title: Interactive Synthetic Data Tool for Empirical Exploration Evaluation
+  - title: Interactive Synthetic Data Tool for User Evaluation of Exploratory Data Analysis Methods
     slug: dim-reduction-study-tool
     status: Ongoing
     years: 2026–present
@@ -20,7 +20,7 @@ ongoing:
       - Khoa Ly
       - Dr. Austin P. Wright
     summary: >-
-      Developing a tool to study how well dimensionality reduction techniques enable effective truth tracking data exploration
+      Developing a tool to study how well dimensionality reduction techniques enable effective truth tracking data exploration when given to actual users.
 
   - title: Interactive Visualization of Bayes Networks
     slug: bayes-vis

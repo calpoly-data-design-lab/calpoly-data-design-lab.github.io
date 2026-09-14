@@ -25,6 +25,13 @@ students:
     bio: >-
       Cal Poly computer science student exploring my interests: data science, systems software, network programming and more. Focused on the fundamentals.
 
+  - name: Greg Phillips
+    role: Undergraduate Researcher
+    program: B.S. Computer Science
+    year: 2026
+    email: gaphilli@calpoly.edu
+
+
   - name: Khoa Ly
     role: Graduate Researcher
     program: M.S. Computer Science

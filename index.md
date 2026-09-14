@@ -31,9 +31,9 @@ description: Homepage for the Cal Poly Data Design Lab.
   <h2>Regular lab meetings</h2>
   <article class="card meeting-card">
     <p class="eyebrow">Weekly meeting</p>
-    <h3>Tuesdays, 3–4 PM</h3>
+    <h3>Fridays, 12–1 PM</h3>
     <p>Join the Cal Poly Data Design Lab for regular project updates, research discussion, and informal collaboration.</p>
-    <p class="metadata"><strong>Location:</strong> Building 14, Room 222</p>
+    <p class="metadata"><strong>Location:</strong> Building 14, Room 238B</p>
   </article>
 </section>
 
