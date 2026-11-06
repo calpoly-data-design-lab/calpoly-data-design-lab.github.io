@@ -18,6 +18,7 @@ ongoing:
     years: 2026–present
     people:
       - Khoa Ly
+      - Greg Phillips
       - Dr. Austin P. Wright
     summary: >-
       Developing a tool to study how well dimensionality reduction techniques enable effective truth tracking data exploration when given to actual users.
@@ -31,6 +32,26 @@ ongoing:
       - Dr. Austin P. Wright
     summary: >-
       Developing an interactive visualization tool for Probabilistic Graphical Models as an interface towards general purpose probabilistic programing in a visual mode. Ongoing work includes both tool design and development as well as empirical studies to understand the strengths and weaknesses of visual as opposed to code based workflows.
+
+  - title: Multimodal and Multiscale Latent Representation of Biodiversity Data
+    slug: biocube
+    status: Ongoing
+    years: 2026–present
+    people:
+      - Aiden Freeland
+      - Dr. Austin P. Wright
+    summary: >-
+      Extending work on the Biocube biodiversity dataset to build multimodal and multi-scale latent representations of complex relational data, and studying ways to interactively build interpretable scientific visualizations on top of the representation.
+
+  - title: Multi-Agent Reinforcement Learning Visual Environment
+    slug: agent-vis
+    status: Ongoing
+    years: 2026–present
+    people:
+      - Pranav Nallaperumal
+      - Dr. Austin P. Wright
+    summary: >-
+      Reinforcement learning is famously difficult to train, and multi-agent environments doubly so. A key aspect of effective training is visibility in to the emergent patterns and behaviors that agents exhibit in the RL environment. This project is studying ways to gain better real time visibility into the multi-agent RL environment to better enable the rapid identification and analysis of learned behaviours.
 
 past:
   - title: Cognitive Effects of AI Authorship labels on Interpretive Domains

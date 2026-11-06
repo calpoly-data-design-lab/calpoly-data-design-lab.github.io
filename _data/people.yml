@@ -38,6 +38,27 @@ students:
     year: 2027
     email: kly27@calpoly.edu
     website: https://khoa-l.github.io/
+    image: /assets/img/people/khao-portrait.webp
+
+  - name: Pranav Nallaperumal
+    role: Graduate Researcher
+    program: M.S. Computer Science
+    year: 2027
+    email:  pnallape@calpoly.edu
+    website: https://www.linkedin.com/in/pranav-nallaperumal/
+    image: /assets/img/people/pranav-portrait.jpg
+
+  - name: Aidan Freeland
+    role: Graduate Researcher
+    program: M.S. Computer Science
+    year: 2027
+    email: apfreela@calpoly.edu
+    website: https://www.linkedin.com/in/aidan-freeland/
+    image: /assets/img/people/aiden-portrait.jpg
+
+
+
+
 
 alumni:
   - name: Sam Gar Fox Kaplan
