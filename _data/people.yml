@@ -22,8 +22,6 @@ students:
     email: tbohley@calpoly.edu
     website: https://www.linkedin.com/in/tobin-bohley
     image: /assets/img/people/tobin.jpg
-    bio: >-
-      Cal Poly computer science student exploring my interests: data science, systems software, network programming and more. Focused on the fundamentals.
 
   - name: Greg Phillips
     role: Undergraduate Researcher

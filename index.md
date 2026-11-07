@@ -5,6 +5,7 @@ description: Homepage for the Cal Poly Data Design Lab.
 ---
 
 <section class="hero">
+  <div class="hero-introduction">
   <div class="hero-brand">
     <img class="hero-logo" src="{{ '/assets/img/logo.svg' | relative_url }}" alt="" width="96" height="96">
     <div>
@@ -24,17 +25,15 @@ description: Homepage for the Cal Poly Data Design Lab.
     <a class="button" href="{{ '/projects/' | relative_url }}">Explore projects</a>
     <a class="button secondary" href="{{ '/join/' | relative_url }}">Join the lab</a>
   </p>
-</section>
-
-
-<section>
-  <h2>Regular lab meetings</h2>
-  <article class="card meeting-card">
+  </div>
+  <aside class="card meeting-card" aria-labelledby="meeting-heading">
     <p class="eyebrow">Weekly meeting</p>
+    <h2 id="meeting-heading">Regular lab meetings</h2>
     <h3>Fridays, 12–1 PM</h3>
     <p>Join the Cal Poly Data Design Lab for regular project updates, research discussion, and informal collaboration.</p>
     <p class="metadata"><strong>Location:</strong> Building 14, Room 238B</p>
-  </article>
+    <p class="button-row"><a class="button" href="https://calpoly.zoom.us/j/84484101305">Join on Zoom</a></p>
+  </aside>
 </section>
 
 <section>

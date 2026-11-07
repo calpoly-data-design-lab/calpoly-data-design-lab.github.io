@@ -16,7 +16,17 @@
             href="/assets/img/favicon.svg"
         />
 
-        <meta name="theme-color" content="#154734" />
+        <meta name="color-scheme" content="light dark" />
+        <meta
+            name="theme-color"
+            content="#ffffff"
+            media="(prefers-color-scheme: light)"
+        />
+        <meta
+            name="theme-color"
+            content="#181818"
+            media="(prefers-color-scheme: dark)"
+        />
         <link
             rel="stylesheet"
             href="/assets/css/style.css"
@@ -57,6 +67,7 @@
         </header>
 
         <main class="page"><section class="hero">
+  <div class="hero-introduction">
   <div class="hero-brand">
     <img class="hero-logo" src="/assets/img/logo.svg" alt="" width="96" height="96" />
     <div>
@@ -76,16 +87,15 @@
     <a class="button" href="/projects/">Explore projects</a>
     <a class="button secondary" href="/join/">Join the lab</a>
   </p>
-</section>
-
-<section>
-  <h2>Regular lab meetings</h2>
-  <article class="card meeting-card">
+  </div>
+  <aside class="card meeting-card" aria-labelledby="meeting-heading">
     <p class="eyebrow">Weekly meeting</p>
+    <h2 id="meeting-heading">Regular lab meetings</h2>
     <h3>Fridays, 12–1 PM</h3>
     <p>Join the Cal Poly Data Design Lab for regular project updates, research discussion, and informal collaboration.</p>
     <p class="metadata"><strong>Location:</strong> Building 14, Room 238B</p>
-  </article>
+    <p class="button-row"><a class="button" href="https://calpoly.zoom.us/j/84484101305">Join on Zoom</a></p>
+  </aside>
 </section>
 
 <section>
@@ -213,7 +223,7 @@
       
       
     </p>
-    <p>Cal Poly computer science student exploring my interests: data science, systems software, network programming and more. Focused on the fundamentals.</p>
+    
     <p class="links">
       <a href="mailto:tbohley@calpoly.edu">Email</a>
       <a href="https://www.linkedin.com/in/tobin-bohley">Website</a>

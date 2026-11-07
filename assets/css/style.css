@@ -7,22 +7,43 @@
 */
 
 :root {
-  --paper: #fffff8;
+  color-scheme: light dark;
+  --paper: #ffffff;
   --ink: #111111;
   --muted: #555555;
   --rule: #d8d3bd;
   --accent: #154734;
   --accent-light: #e7efe8;
   --link: #8c1515;
-  --card: rgba(255, 255, 248, 0.94);
+  --card: #ffffff;
   --shadow: 5px 5px 15px rgba(17, 17, 17, 0.05);
   --serif: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   --sans: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   --mono: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #181818;
+    --ink: #eeeeee;
+    --muted: #bcbcbc;
+    --rule: #484848;
+    --accent: #a0d9b8;
+    --accent-light: #303030;
+    --link: #edb4b4;
+    --card: #242424;
+    --shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+}
+
 html {
   font-size: 15px;
+  background: var(--paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }
 
 body {
@@ -270,7 +291,25 @@ pre > code {
 }
 
 .hero {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
   margin-bottom: 4rem;
+}
+
+.hero-introduction {
+  min-width: 0;
+}
+
+.hero-introduction p {
+  width: 100%;
+}
+
+@media (min-width: 1100px) {
+  .hero {
+    grid-template-columns: minmax(0, 1.8fr) minmax(280px, 1fr);
+    gap: 3rem;
+  }
 }
 
 .hero-brand {
@@ -380,7 +419,15 @@ pre > code {
 }
 
 .meeting-card {
+  box-sizing: border-box;
+  width: 100%;
   max-width: 760px;
+}
+
+.meeting-card h2 {
+  margin: 0 0 1rem;
+  font-size: 1.8rem;
+  line-height: 1.15;
 }
 
 .person-card {
